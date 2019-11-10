@@ -51,7 +51,6 @@ def get_comments(link):
             break
     return aggregate_string
 
-
 def main():
     link = input("Enter in a Reddit post link: ")
     title, body, author = get_data(link, create_reddit_object())
