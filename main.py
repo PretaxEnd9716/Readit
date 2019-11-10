@@ -60,10 +60,4 @@ def main():
     playsound("test.mp3")
 
 
-    #say_post(combined_str)
-
-    #print(get_data(link, create_reddit_object()))
-    #print(get_comments(link))
-
-
 main()
