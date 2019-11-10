@@ -52,3 +52,4 @@ def get_comments(link):
         if counter > 4:
             break
     return aggregate_string
+
