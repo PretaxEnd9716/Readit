@@ -1,8 +1,5 @@
 from gtts import gTTS
-from tempfile import TemporaryFile
 from playsound import playsound
-import pyglet
-import os
 import praw
 import string
 from praw.models import MoreComments
