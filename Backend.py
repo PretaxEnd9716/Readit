@@ -25,8 +25,9 @@ def get_data(link, reddit_object: praw.Reddit):
     author = submission.author.name
     return title, body_text, author
 
-
 def master_string(title, body, author, comments):
+    if body == '':
+        body = 'Not Available'
     string = f"TITLE OF POST: {title}\nAUTHOR: {author}\nBODY: {body}\nTOP 5 COMMENTS: {comments}"
     return string
 
