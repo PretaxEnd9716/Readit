@@ -4,6 +4,7 @@ import praw
 import string
 from praw.models import MoreComments
 
+
 def get_link():
     reddit_link = input("Enter in a Reddit Post Link:")
     return reddit_link
@@ -33,6 +34,7 @@ def master_string(title, body, author, comments):
 def say_post(text):
     return 0
 
+
 def get_comments(link):
     aggregate_string = ''
     submission = create_reddit_object().submission(url=link)
@@ -48,6 +50,7 @@ def get_comments(link):
         if counter > 4:
             break
     return aggregate_string
+
 
 def main():
     link = input("Enter in a Reddit post link: ")
