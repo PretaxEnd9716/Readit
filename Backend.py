@@ -14,9 +14,9 @@ from praw.models import MoreComments
 
 # Creates and initializes reddit object
 def create_reddit_object():
-    reddit = praw.Reddit(client_id='1rUc-2dGWkGqMw',
-                         client_secret='az5cx5nCWFEqZeZ2Knlm4-oDYHI',
-                         user_agent='OOF')
+    reddit = praw.Reddit(client_id='',
+                         client_secret='',
+                         user_agent='')
 
     return reddit
 
